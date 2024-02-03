@@ -154,8 +154,12 @@ input:checked~.border {
     border-color: #00000033;
 }
 
-.mt-66 {
-    margin-top: 66px;
+.mt-85 {
+    margin-top: 85px;
+}
+
+.pad-10 {
+    padding: 10px;
 }
 
 @media (min-width: 992px) {
@@ -544,10 +548,16 @@ label {
 
 #heart:hover path {
     fill: red;
+    cursor: pointer;
 }
 
 #comment:hover {
     transform: translateY(-10%);
+    cursor: pointer;
+}
+
+.pointer {
+    cursor: pointer;
 }
 
 @media (max-width: 576px) {
