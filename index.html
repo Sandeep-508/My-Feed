@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Feed</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css"
+        integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <section class="d-flex">
+        <nav class="w-100 d-flex box-shad pos-fix bg-color z-1">
+            <div class="container d-flex fd-row align_prop">
+                <div class="d-flex gap-20">
+                    <div class="instead d-flex align_item hide">
+                        <img src="./assets/images/feed-wallet.svg" alt="...">
+                    </div>
+                    <div class="d-flex prop">
+                        <img src="./assets/images/illuminati.png" alt="..." class="wid">
+                        <p class="mainheading">NFTsee</p>
+                    </div>
+                    <div class="d-flex prop-m d-none">
+                        <a class="feed" href="/">Feed</a>
+                        <a class="wallet" href="/">Wallet</a>
+                    </div>
+                </div>
+                <div class="right_side d-flex align_item gap-10">
+                    <div class="input">
+                        <input type="text" placeholder="Search Here..." class="input_changes">
+                        <img src="./assets/images/box-search.svg" alt="..." class="icon">
+                    </div>
+                    <div class="moving_btn">
+                        <input type="checkbox" id="btn" hidden>
+                        <label class="border" for="btn">
+                            <div class="moving_circle"></div>
+                        </label>
+                    </div>
+                    <div>
+                        <img src="./assets/images/nav_bar_ellipse.svg" alt="a boy">
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <section class="first_page mt-66 mb-50">
+        <div class="container">
+            <div class="row flex-col-rev">
+                <div class="col-8-xl col-12">
+
+
+
+                    <div class="box d-flex fd-col mb-20 features pad-20">
+                        <div class="text_container d-flex jc-sb mb-20">
+                            <div class="heading d-flex align_item gap-10">
+                                <img src="./assets/images/container_1_img.svg" alt="a boy">
+                                <p class="name">Jhone doe</p>
+                            </div>
+                            <div class="svg d-flex align_item">
+                                <img src="./assets/images/dots.svg" alt="...">
+                            </div>
+                        </div>
+                        <div class="image_container mb-20">
+                            <img src="./assets/images/container_1_img_large.png" alt="..." class="w-100">
+                        </div>
+                        <div class="svg_container d-flex gap-10 mb-20">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg" id="heart">
+                                <path
+                                    d="M7 3C4.239 3 2 5.216 2 7.95C2 10.157 2.875 15.395 11.488 20.69C11.6423 20.7839 11.8194 20.8335 12 20.8335C12.1806 20.8335 12.3577 20.7839 12.512 20.69C21.125 15.395 22 10.157 22 7.95C22 5.216 19.761 3 17 3C14.239 3 12 6 12 6C12 6 9.761 3 7 3Z"
+                                    stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg" id="comment">
+                                <path
+                                    d="M14 19C17.771 19 19.657 19 20.828 17.828C22 16.657 22 14.771 22 11C22 7.229 22 5.343 20.828 4.172C19.657 3 17.771 3 14 3H10C6.229 3 4.343 3 3.172 4.172C2 5.343 2 7.229 2 11C2 14.771 2 16.657 3.172 17.828C3.825 18.482 4.7 18.771 6 18.898"
+                                    stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                <path
+                                    d="M14.0002 19C12.7642 19 11.4022 19.5 10.1592 20.145C8.16124 21.182 7.16224 21.701 6.67024 21.37C6.17824 21.04 6.27124 20.015 6.45824 17.966L6.50024 17.5"
+                                    stroke="black" stroke-width="2" stroke-linecap="round" />
+                            </svg>
+                        </div>
+                        <div class="input_box d-flex alignment mb-20">
+                            <div class="input w-100">
+                                <input type="text" placeholder="Add A Comment..." style="width: 100%;" class="comment">
+                            </div>
+                            <div>
+                                <a href="/" class="post">Post</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+                    <div class="box d-flex fd-col mb-20 features pad-20">
+                        <div class="text_container d-flex jc-sb mb-20">
+                            <div class="heading d-flex align_item gap-10">
+                                <img src="./assets/images/cont_2_svg.svg" alt="a boy">
+                                <p class="name">Jhone doe</p>
+                            </div>
+                            <div class="svg d-flex align_item">
+                                <img src="./assets/images/dots.svg" alt="...">
+                            </div>
+                        </div>
+                        <div class="image_container mb-20 center_prop diff_prop">
+                            <img src="./assets/images/cont_2_img.png" alt="..." class="width_change w-d-100">
+                        </div>
+                        <div class="svg_container d-flex gap-10 mb-20">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg" id="heart">
+                                <path
+                                    d="M7 3C4.239 3 2 5.216 2 7.95C2 10.157 2.875 15.395 11.488 20.69C11.6423 20.7839 11.8194 20.8335 12 20.8335C12.1806 20.8335 12.3577 20.7839 12.512 20.69C21.125 15.395 22 10.157 22 7.95C22 5.216 19.761 3 17 3C14.239 3 12 6 12 6C12 6 9.761 3 7 3Z"
+                                    stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg" id="comment">
+                                <path
+                                    d="M14 19C17.771 19 19.657 19 20.828 17.828C22 16.657 22 14.771 22 11C22 7.229 22 5.343 20.828 4.172C19.657 3 17.771 3 14 3H10C6.229 3 4.343 3 3.172 4.172C2 5.343 2 7.229 2 11C2 14.771 2 16.657 3.172 17.828C3.825 18.482 4.7 18.771 6 18.898"
+                                    stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                <path
+                                    d="M14.0002 19C12.7642 19 11.4022 19.5 10.1592 20.145C8.16124 21.182 7.16224 21.701 6.67024 21.37C6.17824 21.04 6.27124 20.015 6.45824 17.966L6.50024 17.5"
+                                    stroke="black" stroke-width="2" stroke-linecap="round" />
+                            </svg>
+                        </div>
+                        <div class="input_box d-flex alignment mb-20">
+                            <div class="input w-100">
+                                <input type="text" placeholder="Add A Comment..." style="width: 100%;" class="comment">
+                            </div>
+                            <div>
+                                <a href="/" class="post">Post</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="box d-flex fd-col mb-20 features pad-20">
+                        <div class="text_container d-flex jc-sb mb-20">
+                            <div class="heading d-flex align_item gap-10">
+                                <img src="./assets/images/cont_3_svg.svg" alt="a boy">
+                                <p class="name">Jhone doe</p>
+                            </div>
+                            <div class="svg d-flex align_item">
+                                <img src="./assets/images/dots.svg" alt="...">
+                            </div>
+                        </div>
+                        <div class="image_container mb-20">
+                            <img src="./assets/images/cont_3_img.png" alt="..." class="w-100">
+                        </div>
+                        <div class="svg_container d-flex gap-10 mb-20">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg" id="heart">
+                                <path
+                                    d="M7 3C4.239 3 2 5.216 2 7.95C2 10.157 2.875 15.395 11.488 20.69C11.6423 20.7839 11.8194 20.8335 12 20.8335C12.1806 20.8335 12.3577 20.7839 12.512 20.69C21.125 15.395 22 10.157 22 7.95C22 5.216 19.761 3 17 3C14.239 3 12 6 12 6C12 6 9.761 3 7 3Z"
+                                    stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg" id="comment">
+                                <path
+                                    d="M14 19C17.771 19 19.657 19 20.828 17.828C22 16.657 22 14.771 22 11C22 7.229 22 5.343 20.828 4.172C19.657 3 17.771 3 14 3H10C6.229 3 4.343 3 3.172 4.172C2 5.343 2 7.229 2 11C2 14.771 2 16.657 3.172 17.828C3.825 18.482 4.7 18.771 6 18.898"
+                                    stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                <path
+                                    d="M14.0002 19C12.7642 19 11.4022 19.5 10.1592 20.145C8.16124 21.182 7.16224 21.701 6.67024 21.37C6.17824 21.04 6.27124 20.015 6.45824 17.966L6.50024 17.5"
+                                    stroke="black" stroke-width="2" stroke-linecap="round" />
+                            </svg>
+                        </div>
+                        <div class="input_box d-flex alignment mb-20">
+                            <div class="input w-100">
+                                <input type="text" placeholder="Add A Comment..." style="width: 100%;" class="comment">
+                            </div>
+                            <div>
+                                <a href="/" class="post">Post</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="box d-flex fd-col features pad-20">
+                        <div class="text_container d-flex jc-sb mb-20">
+                            <div class="heading d-flex align_item gap-10">
+                                <img src="./assets/images/cont_3_svg.svg" alt="a boy">
+                                <p class="name">Jhone doe</p>
+                            </div>
+                            <div class="svg d-flex align_item">
+                                <img src="./assets/images/dots.svg" alt="...">
+                            </div>
+                        </div>
+                        <div class="image_container mb-20 center_prop diff_prop">
+                            <img src="./assets/images/cont_4_img.png" alt="..." class="width_change w-d-100">
+                        </div>
+                        <div class="svg_container d-flex gap-10 mb-20">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg" id="heart">
+                                <path
+                                    d="M7 3C4.239 3 2 5.216 2 7.95C2 10.157 2.875 15.395 11.488 20.69C11.6423 20.7839 11.8194 20.8335 12 20.8335C12.1806 20.8335 12.3577 20.7839 12.512 20.69C21.125 15.395 22 10.157 22 7.95C22 5.216 19.761 3 17 3C14.239 3 12 6 12 6C12 6 9.761 3 7 3Z"
+                                    stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg" id="comment">
+                                <path
+                                    d="M14 19C17.771 19 19.657 19 20.828 17.828C22 16.657 22 14.771 22 11C22 7.229 22 5.343 20.828 4.172C19.657 3 17.771 3 14 3H10C6.229 3 4.343 3 3.172 4.172C2 5.343 2 7.229 2 11C2 14.771 2 16.657 3.172 17.828C3.825 18.482 4.7 18.771 6 18.898"
+                                    stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                <path
+                                    d="M14.0002 19C12.7642 19 11.4022 19.5 10.1592 20.145C8.16124 21.182 7.16224 21.701 6.67024 21.37C6.17824 21.04 6.27124 20.015 6.45824 17.966L6.50024 17.5"
+                                    stroke="black" stroke-width="2" stroke-linecap="round" />
+                            </svg>
+                        </div>
+                        <div class="input_box d-flex alignment mb-20">
+                            <div class="input w-100">
+                                <input type="text" placeholder="Add A Comment..." style="width: 100%;" class="comment">
+                            </div>
+                            <div>
+                                <a href="/" class="post">Post</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4-xl col-12">
+                    <div>
+                        <div>
+                            <p class="filter">Filter</p>
+                        </div>
+                        <div class="light flex-row g-20">
+                            <label>
+                                <input type="radio" name="light" class="radio">
+                                <span class="design"></span>
+                                <span class="text">Most Loved</span>
+                            </label>
+
+                            <label>
+                                <input type="radio" name="light" class="radio">
+                                <span class="design"></span>
+                                <span class="text">Recently Reveiwed</span>
+                            </label>
+                        </div>
+                        <div>
+                            <p class="suggestion">Suggestion For You</p>
+                        </div>
+
+                        <div class="min-w-992 mt-20">
+                            <div class="mt-20 slider">
+                                <div class="first_card d-flex align_item jc-sb brdr mt-10 pad-20">
+                                    <div class="d-flex align_item gap-10 dir_col">
+                                        <img src="./assets/images/card_img_1.svg" alt="...">
+                                        <p class="name">Jhone Doe</p>
+                                    </div>
+                                    <div class="anchor d-flex align_item jc-c">
+                                        <a href="/" class="foll">Follow</a>
+                                    </div>
+                                </div>
+                                <div class="second_card d-flex align_item jc-sb mt-10 brdr pad-20">
+                                    <div class="d-flex align_item gap-10 dir_col">
+                                        <img src="./assets/images/card_img_2.svg" alt="...">
+                                        <p class="name">Jhone Doe</p>
+                                    </div>
+                                    <div class="anchor d-flex align_item jc-c">
+                                        <a href="/" class="foll">Follow</a>
+                                    </div>
+                                </div>
+                                <div class="third_card d-flex align_item jc-sb mt-10 brdr pad-20">
+                                    <div class="d-flex align_item gap-10 dir_col">
+                                        <img src="./assets/images/card_img_3.svg" alt="...">
+                                        <p class="name">Jhone Doe</p>
+                                    </div>
+                                    <div class="anchor d-flex align_item jc-c">
+                                        <a href="/" class="foll">Follow</a>
+                                    </div>
+                                </div>
+                                <div class="forth_card d-flex align_item jc-sb mt-10 brdr pad-20">
+                                    <div class="d-flex align_item gap-10 dir_col">
+                                        <img src="./assets/images/card_img_4.svg" alt="...">
+                                        <p class="name">Jhone Doe</p>
+                                    </div>
+                                    <div class="anchor d-flex align_item jc-c">
+                                        <a href="/" class="foll">Follow</a>
+                                    </div>
+                                </div>
+                                <div class="five_card d-flex align_item jc-sb mt-10 brdr pad-20">
+                                    <div class="d-flex align_item gap-10 dir_col">
+                                        <img src="./assets/images/card_img_5.svg" alt="...">
+                                        <p class="name">Jhone Doe</p>
+                                    </div>
+                                    <div class="anchor d-flex align_item jc-c">
+                                        <a href="/" class="foll">Follow</a>
+                                    </div>
+                                </div>
+                                <div class="six_card d-flex align_item jc-sb mt-10 brdr pad-20">
+                                    <div class="d-flex align_item gap-10 dir_col">
+                                        <img src="./assets/images/card_img_6.svg" alt="...">
+                                        <p class="name">Jhone Doe</p>
+                                    </div>
+                                    <div class="anchor d-flex align_item jc-c">
+                                        <a href="/" class="foll">Follow</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!--  for change  -->
+
+                        <div class="max-w-992 mt-20">
+                            <div class="column">
+                                <div class="first_card d-flex align_item jc-sb">
+                                    <div class="d-flex align_item gap-10 dir_col">
+                                        <img src="./assets/images/card_img_1.svg" alt="...">
+                                        <p class="name">Jhone Doe</p>
+                                    </div>
+                                    <div class="anchor d-flex align_item jc-c">
+                                        <a href="/" class="foll">Follow</a>
+                                    </div>
+                                </div>
+                                <div class="second_card d-flex align_item jc-sb mt-10">
+                                    <div class="d-flex align_item gap-10 dir_col">
+                                        <img src="./assets/images/card_img_2.svg" alt="...">
+                                        <p class="name">Jhone Doe</p>
+                                    </div>
+                                    <div class="anchor d-flex align_item jc-c">
+                                        <a href="/" class="foll">Follow</a>
+                                    </div>
+                                </div>
+                                <div class="third_card d-flex align_item jc-sb mt-10">
+                                    <div class="d-flex align_item gap-10 dir_col">
+                                        <img src="./assets/images/card_img_3.svg" alt="...">
+                                        <p class="name">Jhone Doe</p>
+                                    </div>
+                                    <div class="anchor d-flex align_item jc-c">
+                                        <a href="/" class="foll">Follow</a>
+                                    </div>
+                                </div>
+                                <div class="forth_card d-flex align_item jc-sb mt-10">
+                                    <div class="d-flex align_item gap-10 dir_col">
+                                        <img src="./assets/images/card_img_4.svg" alt="...">
+                                        <p class="name">Jhone Doe</p>
+                                    </div>
+                                    <div class="anchor d-flex align_item jc-c">
+                                        <a href="/" class="foll">Follow</a>
+                                    </div>
+                                </div>
+                                <div class="five_card d-flex align_item jc-sb mt-10">
+                                    <div class="d-flex align_item gap-10 dir_col">
+                                        <img src="./assets/images/card_img_5.svg" alt="...">
+                                        <p class="name">Jhone Doe</p>
+                                    </div>
+                                    <div class="anchor d-flex align_item jc-c">
+                                        <a href="/" class="foll">Follow</a>
+                                    </div>
+                                </div>
+                                <div class="six_card d-flex align_item jc-sb mt-10">
+                                    <div class="d-flex align_item gap-10 dir_col">
+                                        <img src="./assets/images/card_img_6.svg" alt="...">
+                                        <p class="name">Jhone Doe</p>
+                                    </div>
+                                    <div class="anchor d-flex align_item jc-c">
+                                        <a href="/" class="foll">Follow</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div>
+                            <p class="copy mt-20">Copyright@2021</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+        integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+    <script>
+        $('.slider').slick({
+            dots: true,
+            infinite: true,
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            variableWidth: true,
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 4,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: true
+                    }
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 1
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1
+                    }
+                }
+                // You can unslick at a given breakpoint now by adding:
+                // settings: "unslick"
+                // instead of a settings object
+            ]
+        });
+    </script>
+</body>
+
+</html>
